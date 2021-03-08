@@ -1,0 +1,16 @@
+[package]
+name = "rs-proxy"
+version = "0.1.0"
+authors = ["DPM97 <34420038+DPM97@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.7"
+base64 = "~0.3.0"
+reqwest = "0.11.1"
+
+[[bin]]
+name = "rs-proxy"
+path = "main.rs"
